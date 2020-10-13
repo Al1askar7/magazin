@@ -1,0 +1,141 @@
+@media screen and (max-width: 1100px){
+    body{
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    .header{
+        width: 100%;
+    }
+    .block2{
+        display: flex;
+        /* flex-wrap: wrap; */
+        justify-content: space-evenly;
+    }
+    .block_n{
+        width: 40%;
+    }
+    .block2_line4{
+        width: 90%;
+    }
+    .block2_line12{
+        display: none;
+    }
+    .block2_line13{
+        width: 90%;
+    }
+    .block2_line2{
+        width: 90%;
+    }
+    .block{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .footer_line{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer_icon{
+        /* display: flex; */
+        flex-wrap: wrap;
+        /* width: 90%; */
+    }
+    .footer_img{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .footer_img ul{
+        width: 15%;
+    }
+    .footer{
+        width: 100%;
+    }
+    .block h1{
+        background: none;
+    }
+    .container2{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 730px){
+    .header_img ul{
+        display: none;
+    }
+    .block_n{
+        width: 90%;
+    }
+    .block2_line4{
+        width: 90%;
+    }
+    .block_text{
+        margin-left: -130px;
+    }
+    .block2_line4 img{
+        width: 90%;
+    }
+    .block2_line12{
+        display: none;
+    }
+    .block2_line13{
+        width: 90%;
+    }
+    .block2_line2{
+        width: 90%;
+    }
+    .block2_line2 img{
+        margin-left: 0;
+    }
+    .block{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .footer_line{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer_icon{
+        /* display: flex; */
+        flex-wrap: wrap;
+        /* width: 90%; */
+    }
+    .footer_img{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .footer_img ul{
+        width: 15%;
+    }
+    .footer{
+        width: 100%;
+    }
+    .block h1{
+        background: none;
+    }
+    .container2{
+        width: 90%;
+    }
+    .block_n {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 578px){
+    .block2_line2{
+        width: 90%;
+    }
+    .block2_line2 img{
+        margin-left: 0;
+        width: 90%;
+    }
+    .block2_line2 span{
+        margin-left: 40%;
+    }
+}
